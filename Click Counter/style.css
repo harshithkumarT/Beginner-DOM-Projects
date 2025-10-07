@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 400px;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    animation: changeBackgroundColor 2s ease  1s infinite; 
+}
+
+@keyframes changeBackgroundColor {
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: orange;
+    }
+    100%{
+        background:green;
+    }
+}
+#btn{
+    height: 60px;
+    width: 100px;
+    border-radius: 0 20px;
+    border: none;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    transition: height 2s , width 2s;
+}
+h1{
+    height: 100px ;
+    width: 200px;
+    /* border: 2px solid black; */
+    margin: 10px 30px;
+}
