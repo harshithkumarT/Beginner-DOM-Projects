@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Mode Toggle</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      transition: background-color 0.5s, color 0.5s;
+    }
+
+    /* Light mode styles */
+    body.light-mode {
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    /* Dark mode styles */
+    body.dark-mode {
+      background-color: #333;
+      color: #f2f2f2;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body class="light-mode">
+  <h1>Dark / Light Mode Toggle</h1>
+  <p>Click the button below to switch modes.</p>
+
+  <!-- Toggle button -->
+  <button id="toggleBtn">Switch to Dark Mode</button>
+
+  <script src="index.js"></script>
+</body>
+</html>
